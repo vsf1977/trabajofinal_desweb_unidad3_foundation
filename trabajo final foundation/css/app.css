@@ -1,0 +1,56 @@
+body
+{
+  background-image: url("../img/fondo.jpg") !important;
+  background: center no-repeat contain center !important;
+  background-attachment: fixed;
+}
+
+.grid-container
+{
+  background-color: rgb(147,182,219,0.875);
+}
+
+.Encabezado
+{
+  margin-top: 10px;
+  border-right: 1px solid #c2c2c2;
+  min-height: 40px !important;
+}
+
+.Encabezado > h4
+{
+  text-align: right;
+  margin-top: 30px !important;
+  font-family: Dancing Script;
+}
+
+.Encabezado > h1
+{
+  text-align: left;
+  font-family: Dancing Script;
+}
+
+.callout
+{
+  border-radius: 5px !important;
+  min-height: 1000px;
+}
+
+.Menu_lateral > .callout
+{
+  background-color: rgb(242,225,196);
+}
+
+.panel_der  > .callout
+{
+  background-color: rgb(227,202,166);
+}
+
+@media screen and (max-width:640px)
+{
+  hr
+  {
+    display: none !important;
+  }
+
+}
