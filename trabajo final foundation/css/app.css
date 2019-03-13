@@ -46,6 +46,33 @@ body
   background-color: rgb(227,202,166);
 }
 
+.button
+{
+  background-color: rgb(199,185,154);
+  font-family: Dancing Script;
+  font-size: 22px;
+}
+
+nav > div:nth-child(n+2):nth-child(n+1)
+{
+  margin-top: 50px;
+}
+
+ul,li
+{
+  list-style: none;
+  padding-left: 20px;
+  font-family: Dancing Script;
+  font-size: 25px;
+  color: black !important;
+}
+
+h3
+{
+  font-family: Dancing Script;
+}
+
+
 @media screen and (max-width:640px)
 {
   hr
