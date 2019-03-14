@@ -33,7 +33,6 @@ body
 .callout
 {
   border-radius: 5px !important;
-  min-height: 1000px;
 }
 
 .Menu_lateral > .callout
@@ -41,16 +40,16 @@ body
   background-color: rgb(242,225,196);
 }
 
-.panel_der  > .callout
+.Platos  > .callout
 {
   background-color: rgb(227,202,166);
 }
 
-.button
+.Botones > .button
 {
-  background-color: rgb(199,185,154);
   font-family: Dancing Script;
   font-size: 22px;
+  border-radius: 3px;
 }
 
 nav > div:nth-child(n+2):nth-child(n+1)
@@ -72,10 +71,36 @@ h3
   font-family: Dancing Script;
 }
 
+h5
+{
+  font-family: verdana;
+  font-style:italic;
+  color: white;
+}
+
+.Platos > div
+{
+  text-align: justify !important;
+}
+
+.callout > hr
+{
+  border: 1px solid #b5b5b5 !important;
+}
+
+.boton_com
+{
+  text-align: right;
+}
+
+.Plato > img
+{
+  border: 5px white solid;
+}
 
 @media screen and (max-width:640px)
 {
-  hr
+  .grid-container > hr
   {
     display: none !important;
   }
